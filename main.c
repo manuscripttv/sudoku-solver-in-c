@@ -2,7 +2,6 @@
 
 int g[9][9];
 
-// lets move the print func to a separate func
 void show(void) {
   // for each row, we print all cols and then move to the next row
   for (int r = 0; r < 9; r++) {
